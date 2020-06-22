@@ -1,0 +1,32 @@
+body{
+  margin:0;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+h1{
+  margin :0;
+  font-size : 60px;
+  text-align : center;
+  border-bottom : 10px double orange;
+  padding:20px;
+  font-family:Times;
+}
+#grid ol{
+  border-right: 3px solid orange;
+  width:100px;
+  margin:0;
+  padding:20px;
+  padding-left:53px;
+  padding-top: 15px;
+  font-size: 25px;
+  line-height: 40px;
+}
+#grid{
+  display : grid;
+  grid-template-columns: 150px 1fr;
+}
+#article{
+  padding-left: 50px;
+}
